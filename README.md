@@ -51,9 +51,10 @@ __3. Solving the problem (with sorting first)__
 
 I finish the implementation within this following time frame:
 
-__Wed May 22 21:34:31 2019 +0200__ - *0 min* - Start Project
-__Wed May 22 21:44:00 2019 +0200__ - *10 min* - Write some documentation + Reflexion
-__Wed May 22 22:10:03 2019 +0200__ - *26 min* - Finish simple implementation with tests
-__Wed May 22 22:29:57 2019 +0200__ - *19 min* - Finish early stopping implementation on sorted array with tests
+- __Wed May 22 21:34:31 2019 +0200__ - *0 min* - Start Project
+- __Wed May 22 21:44:00 2019 +0200__ - *10 min* - Write some documentation + Reflexion
+- __Wed May 22 22:10:03 2019 +0200__ - *26 min* - Finish simple implementation with tests
+- __Wed May 22 22:29:57 2019 +0200__ - *19 min* - Finish early stopping implementation on sorted array with tests
 
-__Total__ - *55 min*
+
+__Total Time__ - *55 min*
