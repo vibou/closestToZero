@@ -41,3 +41,15 @@ when input is [8, 2, 3, -2] it must return 1
     Sorting the array first gives the opportunity to search the array more efficiently either by using dichotomy (up to O(log n)) or by using more simple approach with early stopping as soon as the positive integers are increasing.
 
     Both have advantages and drawbacks depending on the size of the array. I choose to implement the one without dichotomy.
+
+
+## Conclusion
+
+I finish the implementation within this following time frame:
+
+**Wed May 22 21:34:31 2019 +0200** - *0 min* - Start Project
+**Wed May 22 21:44:00 2019 +0200** - *10 min* - Write some documentation + Reflexion
+**Wed May 22 22:10:03 2019 +0200** - *26 min* - Finish simple implementation with tests
+**Wed May 22 22:29:57 2019 +0200** - *19 min* - Finish early stopping implementation on sorted array with tests
+
+**Total** - *55 min*
