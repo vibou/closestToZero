@@ -46,8 +46,6 @@ module.exports = {
 
     var minIndex = -1;
 
-    console.log(array);
-
     array.some((element, index) => {
       if (element === 0) {
         minIndex = index;
