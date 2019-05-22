@@ -1,4 +1,4 @@
-const {closestToZero} = require('./closestToZero');
+const {closestToZero} = require('../closestToZero');
 
 test('empty/undefined array should return 0', () => {
   expect(closestToZero([])).toBe(0);

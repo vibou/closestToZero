@@ -36,3 +36,8 @@ when input is [8, 2, 3, -2] it must return 1
     We also need to consider an early stoping when a 0 is found in the array.
 
 
+**3. Solving the problem (with sorting first)**
+
+    Sorting the array first gives the opportunity to search the array more efficiently either by using dichotomy (up to O(log n)) or by using more simple approach with early stopping as soon as the positive integers are increasing.
+
+    Both have advantages and drawbacks depending on the size of the array. I choose to implement the easier one first.
