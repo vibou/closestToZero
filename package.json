@@ -1,0 +1,19 @@
+{
+  "name": "closesttozero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vibou/closestToZero.git"
+  },
+  "author": "vibou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibou/closestToZero/issues"
+  },
+  "homepage": "https://github.com/vibou/closestToZero#readme"
+}
