@@ -61,7 +61,6 @@ module.exports = {
 
       const minIndexValue = array[minIndex];
       const absMinIndexValue = abs(minIndexValue);
-      const absElement = abs(element);
 
       if (element > 0) {
         // as soon as a positive element comes 
