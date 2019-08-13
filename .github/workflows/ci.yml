@@ -1,0 +1,12 @@
+name: Build and Test
+on: [push]
+
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      id: build
+      - uses: docker://
+      - run: echo "I am in Build Step"
+      
