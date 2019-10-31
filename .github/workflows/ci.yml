@@ -1,12 +1,32 @@
-name: Build and Test
-on: [push]
+name: CI
+on: push
+
+env:
+  CI: true
 
 jobs:
-  build:
-    name: Greeting
+  front-end:
     runs-on: ubuntu-latest
+    name: Front-End CI - Node 10.x
+
     steps:
-      id: build
-      - uses: docker://
-      - run: echo "I am in Build Step"
-      
+      - name: checkout sources
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install
+        working-directory: './front-end'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn
+
+      - name: Run tests
+        working-directory: './front-end'
+        run: yarn test
